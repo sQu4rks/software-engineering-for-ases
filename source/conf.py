@@ -49,8 +49,22 @@ master_doc = 'index'
 # a list of builtin themes.
 #
 html_theme = 'alabaster'
+html_sidebars = {
+    '**': [
+        'about.html',
+        'navigation.html',
+    ]
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+# Customizations
+html_theme_options = {
+    'sidebar_collapse': True,
+    'show_relbars': True,
+    'body_text_align': "justify"
+}
