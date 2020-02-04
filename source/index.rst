@@ -37,7 +37,7 @@ On day three we then finish with
 * Project Work-through
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :hidden:
    :caption: Table of Contents:
 

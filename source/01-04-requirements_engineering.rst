@@ -2,8 +2,8 @@ Requirements Engineering
 ========================
 
 
-The Lab
--------
+Requirements Engineering Lab
+----------------------------
 
 In this lab you will specify user stories based on a case study. 
 
