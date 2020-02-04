@@ -1,9 +1,66 @@
 Software Architecture
 =====================
 
-In this tutorial I will use software architecture as a synonym for 
-software architecture and software design. The fields are both very related.
+Software Architecture is the discipline of creating a structured overview of a software system. A software 
+architecture, sort of like a architecture blueprint in real life, shows the different elements, their relations 
+and the properties of these elements and relations. 
 
+During the software architecture phase of a software project fundamental design choices are made. Wrong choices in 
+this phase can have implications for the entire software product that might not be remediable without a 
+re-design.
+
+Like architecture in the real world software architecture is equal parts science, craft and art. Below are some principles 
+that should be taken into account. In general there is no one right solution for every problem. Due to different use cases 
+for software systems the architectures also vary. 
+
+Principles
+----------
+
+Below list of principles is not complete but captures the, in my opinion, most important aspects.
+
+Build to change 
+^^^^^^^^^^^^^^^
+Most software projects can and will change their requirements over time. Designing a system that is extendable 
+and flexible enough to address new requirements. Pay careful attention to not overgeneralize though! Building a 
+extensive plugin system for a simple website that only displays static content might be overkill.
+
+Separation of Concerns
+^^^^^^^^^^^^^^^^^^^^^^
+The system should be designed in a way that components only handle one specific feature. There should be no overlap 
+in two components functionalities. This avoids interdependency and improves low coupling, making it easier for components 
+to be replaced. 
+
+Single Responsibility
+^^^^^^^^^^^^^^^^^^^^^
+Related to the separation of concernes you want one single responsibility per component. The reverse should also hold. 
+Each "action" should have a clearly distinguishable module that is responsible. This helps making the system easier to understand.
+
+Least Knowledge
+^^^^^^^^^^^^^^^
+A component should not need any knowledge of the internal workings (data types, algorithms etc) of a component in 
+order to interact with that component. 
+
+Don't Repeat Yourself
+^^^^^^^^^^^^^^^^^^^^^
+Avoid duplicating functionality in multiple components. Abstract common functionality into a shared module/component 
+to avoid difficulties when trying to change something (i.e. a algorithm) among multiple components.
+
+Group components into logical layers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Group components according to their logical position in a system. For example group together all components accessing the 
+file system.
+
+Define the communication protocol
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Define how components will communicate with each other (i.e. via REST APIs over HTTP). 
+
+Define the Data format
+^^^^^^^^^^^^^^^^^^^^^^
+Define the data format used when components interact with each other. Avoid mixing multiple data formats.
+
+Naming Conventions
+^^^^^^^^^^^^^^^^^^
+Define clear naming conventions for variables, classes and components. Make names easily readable and understandable.
 
 Unified Modeling Language (UML)
 -------------------------------
