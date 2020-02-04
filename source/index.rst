@@ -42,7 +42,6 @@ On day three we then finish with
    :caption: Table of Contents:
 
    01-01-introduction
-   01-02-software_lifecycle
    01-03-software_dev_cycle
    01-04-requirements_engineering
    01-05-software_architecture
