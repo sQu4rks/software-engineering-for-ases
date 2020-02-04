@@ -66,6 +66,17 @@ story this feature is implemented.
 A user story might be linked to a set of interaction diagrams (we will cover these in the section on software architecture),
 a flow diagram or a mock-up of a solution. 
 
+What makes a requirement bad?
+-----------------------------
+
+It is very hard to specify a good requirement. However the following aspects, sometimes referred to as *requirements smell* 
+are a good indicator that requirements are bad. 
+
+* subjective language 
+* ambiguous adverbs
+* superlatives
+* negative statements
+
 Requirements Engineering Lab
 ----------------------------
 
