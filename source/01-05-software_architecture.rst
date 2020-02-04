@@ -22,8 +22,8 @@ represented by a UML diagram itself.
     The UML diagram family tree.
     
 
-There are two families of diagrams. **Structure diagrams** defining the 
-structure of our solution and **Behaviour Diagrams** defining the behaviour of
+There are two families of diagrams. **Structure diagrams** define the 
+structure of our solution and **Behaviour Diagrams** define the behaviour of
 our solution. 
 
 In this tutorial we will focus on 
