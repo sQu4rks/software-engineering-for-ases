@@ -49,4 +49,6 @@ On day three we then finish with
    02-01-version_control
    02-02-testing
    02-03-test_driven_development
+   02-04-dev_ops
+   02-05-documentation
 
