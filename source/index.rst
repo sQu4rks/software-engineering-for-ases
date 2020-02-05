@@ -48,4 +48,5 @@ On day three we then finish with
    01-06-software_design_patterns
    02-01-version_control
    02-02-testing
+   02-03-test_driven_development
 
