@@ -33,6 +33,7 @@ Before diving into git lets define some terms we will use
 * **Branch** A branch is a *set of commits*. Every project will have at least one *master* branch but the ease of branching in git makes it possible to have a lot of branches. It is very typical to have a master branch - a *develop* branch for the current (somewhat) stable development version and branches for each feature that is being developed.
 * **Diff** A diff lists all the changes that have been applied to a file. It can be used to show the changes since a file has last been comited or show changes that orcured between commits.
 * **Merge** A merge is the process of combining two branches into each other. The big innovation of git was to make merging branches so simple that it became feasible to have a ton of them.
+* **Clone** Cloning is the process of downloading a copy of a remote repository onto your machine.
 
 A visual representation of all these components can be found in below diagram.
 
@@ -48,6 +49,12 @@ Git command-line cheat sheet
 ----------------------------
 
 Following are a few commands that will become useful when dealing with git.
+
+* Clone a remote repository 
+
+.. code-block:: bash
+    
+    $ git clone <url of repository>
 
 * Add a file to git 
 
@@ -97,4 +104,4 @@ Version Control Lab
 
 In this lab you will clone a repository, create a branch, apply changes, commit them and merge the branches.
 
-Download the lab guide :download:`here <_static/labs/lab-architecture.pdf>`.
+Download the lab guide :download:`here <_static/labs/lab-version_control.pdf>`.
