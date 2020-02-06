@@ -34,6 +34,7 @@ Before diving into git lets define some terms we will use
 * **Diff** A diff lists all the changes that have been applied to a file. It can be used to show the changes since a file has last been comited or show changes that orcured between commits.
 * **Merge** A merge is the process of combining two branches into each other. The big innovation of git was to make merging branches so simple that it became feasible to have a ton of them.
 * **Clone** Cloning is the process of downloading a copy of a remote repository onto your machine.
+* **Pull** Pulling is the process of downloading all changes that have been added to a remote repository. 
 
 A visual representation of all these components can be found in below diagram.
 
@@ -55,6 +56,12 @@ Following are a few commands that will become useful when dealing with git.
 .. code-block:: bash
     
     $ git clone <url of repository>
+
+* Update the code with all changes that have been added to the remote repository 
+
+.. code-block:: bash 
+
+    $ git pull 
 
 * Add a file to git 
 
