@@ -109,4 +109,4 @@ Software Testing Lab
 
 In this lab you will fix the provided python code so that it passes all provided test cases as well as write a additional unit test.
 
-Download the lab guide :download:`here <_static/labs/lab-architecture.pdf>`.
+Download the lab guide :download:`here <_static/labs/lab-testing_software.pdf>`.
