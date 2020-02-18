@@ -1,3 +1,0 @@
-The Software Life Cycle
-=======================
-

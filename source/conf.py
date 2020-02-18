@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Software Engineering for Associate Solutions Engineers'
+project = 'Software Engineering for SEs'
 copyright = '2020, Marcel Neidinger'
 author = 'Marcel Neidinger'
 
